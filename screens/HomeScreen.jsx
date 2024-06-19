@@ -43,6 +43,14 @@ const HomeScreen = () => {
           <Image source={require("../assets/Filter.png")} />
         </TouchableOpacity>
       </View>
+
+      <View>
+        <View className="flex-row justify-between mb-4 mt-4">
+          <Text className="font-semibold text-[16px]">Featured Jobs</Text>
+          <Text className="text-[#AFB0B6]">See all</Text>
+        </View>
+        <FeaturedJobs />
+      </View>
     </SafeAreaView>
   );
 };
