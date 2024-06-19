@@ -94,7 +94,7 @@ const LoginScreen = () => {
         </TouchableOpacity>
       </View>
 
-      <Text className="text-center">
+      <Text className="text-center text-[#AFB0B6] ">
         Don{"'"}t have an account{"?"}{" "}
         <Text className="text-[#356899]">Register</Text>
       </Text>
