@@ -1,5 +1,3 @@
-# rn-assignment4-11028723
-
 ## Description
 
 This application is designed to enhance productivity and organization by efficiently managing tasks and job listings. The app features a login screen where users enter their name and email, which are then passed to the home screen. The home screen displays these details and showcases job listings in two sections: popular and featured jobs. Each job listing is displayed using a custom `JobCard` component.
@@ -18,9 +16,6 @@ This application is designed to enhance productivity and organization by efficie
 - Accepts props for card details and displays them accordingly.
 - Used to display at least 8 different job cards in both the popular and featured sections.
 
-## Student ID
-
-11028723
 
 ## Screenshot
 
@@ -31,8 +26,8 @@ This application is designed to enhance productivity and organization by efficie
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/KelvinLinnaeus/rn-assignment4-11028723.git
-   cd rn-assignment4-11028723
+   git clone https://github.com/KelvinMhacwilson/Jobizz
+   cd Jobizz
    ```
 
 2. Install the dependencies:
