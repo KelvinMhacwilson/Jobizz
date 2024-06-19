@@ -58,7 +58,19 @@ const LoginScreen = () => {
         </TouchableOpacity>
       </View>
 
-      <Text className="text-[#AFB0B6] text-center mb-8">Or continue with</Text>
+      <View className="mb-8 flex-row">
+        <View
+          style={{ flex: 1 }}
+          className=" h-[1px] self-center bg-[#AFB0B6] "
+        />
+        <Text style={{ flex: 2 }} className="text-[#AFB0B6] text-center ">
+          Or continue with
+        </Text>
+        <View
+          style={{ flex: 1 }}
+          className="h-[1px] self-center bg-[#AFB0B6] "
+        />
+      </View>
 
       <View className="flex flex-row justify-center items-center">
         <TouchableOpacity>

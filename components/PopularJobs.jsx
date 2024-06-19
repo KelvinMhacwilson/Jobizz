@@ -18,6 +18,20 @@ const PopularJobs = () => {
       image: require("../assets/Beats.png"),
     },
     {
+      title: "Marketing Specialist",
+      pay: "78,000",
+      companyName: "Netflix",
+      location: "Los Angeles, US",
+      image: require("../assets/Netflix.png"),
+    },
+    {
+      title: "Business Analyst",
+      pay: "82,000",
+      companyName: "LinkedIn",
+      location: "Sunnyvale, US",
+      image: require("../assets/LinkedIn.png"),
+    },
+    {
       title: "Product Manager",
       pay: "86,000",
       companyName: "Facebook",
@@ -51,21 +65,6 @@ const PopularJobs = () => {
       companyName: "Amazon",
       location: "Austin, US",
       image: require("../assets/Amazon.png"),
-    },
-    {
-      title: "Marketing Specialist",
-      pay: "78,000",
-      companyName: "Netflix",
-      location: "Los Angeles, US",
-      image: require("../assets/Netflix.png"),
-    },
-
-    {
-      title: "Business Analyst",
-      pay: "82,000",
-      companyName: "LinkedIn",
-      location: "Sunnyvale, US",
-      image: require("../assets/LinkedIn.png"),
     },
   ];
 

@@ -4,12 +4,12 @@ import React from "react";
 const FeaturedJobs = () => {
   const featuredJobs = [
     {
-      title: "Facebook Engineer",
-      name: "Facebook",
-      image: require("../assets/Facebook.png"),
-      pay: 180,
-      location: "Accra, Ghana",
-      color: "#1877F2",
+      title: "Microsoft Engineer",
+      name: "Microsoft",
+      image: require("../assets/Microsoft.png"),
+      pay: 220,
+      location: "Cape Town",
+      color: "#0078D4",
     },
     {
       title: "Amazon Engineer",
@@ -36,14 +36,13 @@ const FeaturedJobs = () => {
       color: "#A2AAAD",
     },
     {
-      title: "Microsoft Engineer",
-      name: "Microsoft",
-      image: require("../assets/Microsoft.png"),
-      pay: 220,
-      location: "Cape Town",
-      color: "#0078D4",
+      title: "Facebook Engineer",
+      name: "Facebook",
+      image: require("../assets/Facebook.png"),
+      pay: 180,
+      location: "Accra, Ghana",
+      color: "#1877F2",
     },
-
     {
       title: "Netflix Engineer",
       name: "Netflix",
