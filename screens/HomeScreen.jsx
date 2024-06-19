@@ -51,6 +51,14 @@ const HomeScreen = () => {
         </View>
         <FeaturedJobs />
       </View>
+
+      <>
+        <View className="flex-row justify-between mb-4">
+          <Text className="font-semibold text-[16px]">Popular Jobs</Text>
+          <Text className="text-[#AFB0B6]">See all</Text>
+        </View>
+        <PopularJobs />
+      </>
     </SafeAreaView>
   );
 };
